@@ -190,6 +190,27 @@ pre {
   }
 }
 
+// 定义 ``符号文本样式
+p{
+  code{
+    border: none;
+    background-color: #2bbc8a;
+    color: white;
+  }
+}
+
+// 定义 > 符号样式
+blockquote{
+
+  background-color: rgb(171, 201, 201);
+  border-left: 5px solid #2bbc8a;
+  margin-inline-start: 0px;
+  p{
+    margin-inline-start: 10px;
+  }
+
+}
+
 code {
   font-family: $font-family-mono;
   padding: 0 5px;
