@@ -187,22 +187,9 @@ pre {
     display: block;
     padding: 0;
     border: none;
-  }
-}
-
-// 定义 ``符号文本样式
-p{
-  code{
-    border: none;
-    background-color: #2bbc8a;
-    color: white;
-  }
-}
-li{
-  code{
-    border: none;
-    background-color: #2bbc8a;
-    color: white;
+    background-color:transparent;
+    // border: 1px dotted $color-border;
+    color: #666;
   }
 }
 
@@ -222,9 +209,10 @@ blockquote{
 code {
   font-family: $font-family-mono;
   padding: 0 5px;
-  border: 1px dotted $color-border;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+  background-color: #2bbc8a;
+  color: white;
 }
 
 .highlight {
