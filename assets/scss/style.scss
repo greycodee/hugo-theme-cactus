@@ -198,6 +198,13 @@ p{
     color: white;
   }
 }
+li{
+  code{
+    border: none;
+    background-color: #2bbc8a;
+    color: white;
+  }
+}
 
 // 定义 > 符号样式
 blockquote{
@@ -207,6 +214,7 @@ blockquote{
   margin-inline-start: 0px;
   p{
     margin-inline-start: 10px;
+    margin-inline-end: 10px;
   }
 
 }
